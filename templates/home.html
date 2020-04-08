@@ -28,9 +28,9 @@
         <section class="entries">
             {% for entry in entries %}
                 <div class="entry">
-                    <p class="entry__title">{{ entry['content'] | truncate(30,true) }} &middot; <span class="entry__date"> {{entry['date']}}</span></p>
+                    <p class="entry__title">{{ entry[0] | truncate(30,true) }} &middot; <span class="entry__date"> {{ entry[1] }}</span></p>
                 </div>    
-                <p class="entry__content">{{ entry['content'] }}</p>
+                <p class="entry__content">{{ entry[0] }}</p>
             {% endfor %}
         </section>
     </main>

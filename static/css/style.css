@@ -86,7 +86,7 @@ footer {
     background-color: #323F43;
     padding: 40px 0;
     margin: 50px 0 0 0;
-    border-top: 4px solid black;
+    border-top: 4px solid #46ff99;
     color: white;
     font-size: 12px;
 }
@@ -110,7 +110,7 @@ footer .right {
     flex-direction: row;
 }
 
-footer .footer-section {
+footer .footer__section {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
@@ -118,5 +118,7 @@ footer .footer-section {
 
 .footer__item {
     margin-bottom: 5px;
+    text-decoration: none;
+    color: #fff;
 }
 

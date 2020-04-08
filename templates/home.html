@@ -23,6 +23,12 @@
                 <input class="form__input form__input--submit" type="submit" />
             </form>
         </section>
+
+        <section class="entries">
+            {% for entry in entries %}
+                <p>{{ entry }}</p>
+            {% endfor %}
+        </section>
     </main>
 </body>
 </html>

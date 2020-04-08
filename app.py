@@ -9,4 +9,4 @@ def home():
         entry_content = request.form.get("content")
         entries.append(entry_content)
     
-    return render_template('home.html')
+    return render_template('home.html', entries=entries)

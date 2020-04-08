@@ -1,11 +1,8 @@
-entries = []
+from flask import Flask
 
-user_selection = input("Enter 'a' to add an entry, or 'q' to quit: ")
+app = Flask(__name__)
 
-while user_selection != 'q':
-    if user_selection == 'a':
-        entry_content = input("What did you learn today? ")
-        entries.append(entry_content)
-    user_selection = input("Enter 'a' to add an entry or 'q' to quit: ")
 
-print(entries)
+@app.route("/home")
+def home():
+    return "Hello, People!"

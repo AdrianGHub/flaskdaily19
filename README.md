@@ -23,7 +23,7 @@
 
 2. Make sure you have Pyhon with from [python.org](https://www.python.org/) installed on your device
 
-3. Import flask following instructions on offcial website [flask](https://flask.palletsprojects.com/en/1.1.x/) :
+3. Import flask following instructions from offcial website [flask](https://flask.palletsprojects.com/en/1.1.x/) :
 
 `import flask from Flask`
 
